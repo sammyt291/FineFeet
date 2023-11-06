@@ -1,0 +1,8 @@
+name: FineFeet
+version: '${project.version}'
+main: org.finetree.finefeet.FineFeet
+api-version: 1.14
+prefix: FineFeet
+authors: [ Steampunk_Sam ]
+description: Prevents your tootsies trampling crops
+website: finetree.org
