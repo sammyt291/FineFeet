@@ -22,6 +22,9 @@ public final class FineFeet extends JavaPlugin implements Listener {
         ConfigManager config = ConfigManager.create(this);
         config.target(Config.class).saveDefaults().load();
 
+        //Metrics
+        Metrics metrics = new Metrics(this, 20224);
+
         getServer().getConsoleSender().sendMessage(ChatColor.WHITE + "["+ ChatColor.GOLD +"FineFeet"+ ChatColor.WHITE +"] "+ ChatColor.GREEN +"enabled");
         getServer().getPluginManager().registerEvents(this, this);
     }
